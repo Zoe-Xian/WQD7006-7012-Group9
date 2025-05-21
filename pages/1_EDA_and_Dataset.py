@@ -16,7 +16,7 @@ st.markdown("""
 # 数据加载（你需要将该CSV放在项目根目录或 data/ 文件夹下）
 @st.cache_data
 def load_data():
-    return pd.read_csv("D:/DS/python_learning/WQD7012/data/v2heartattack_finaldataset.csv")
+    return pd.read_csv("data/v2heartattack_finaldataset.csv")
 
 df = load_data()
 
