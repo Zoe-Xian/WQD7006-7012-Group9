@@ -21,5 +21,5 @@ st.markdown("""
 _Group 9 — WQD7006/WQD7012 Machine Learning for Data Science_
 
 **Lecturer**: Dr. Riyaz Ahamed  
-**Contact**: 23122622@siswa.um.edu.my
+**Contact**:  University of Malaya
 """)
