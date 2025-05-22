@@ -75,7 +75,7 @@ try:
         # 包装在ThresholdModel中
         model = ThresholdModel(base_model, threshold=params['threshold'])
 
-        st.sidebar.success(f"✅ Model loaded successfully with threshold: {params['threshold']:.3f}")
+        # st.sidebar.success(f"✅ Model loaded successfully with threshold: {params['threshold']:.3f}")
     else:
         # 如果不是LogisticRegression类型，处理其他可能的类型
         st.error(f"Unsupported model type: {params['type']}")
